@@ -102,7 +102,7 @@ int  level;
  
   Serial.print("level = "); Serial.print(level);
      lcd.setCursor(12, 3);                      // print the s meter on line 4
-     lcd.print("S     ");                       // blank out bars
+     lcd.print("S       ");                       // blank out bars
      
      if (level > 30) level = 40;
      if (level > 20 && level < 31) level = 30;
